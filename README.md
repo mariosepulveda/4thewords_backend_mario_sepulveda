@@ -16,13 +16,16 @@ Backend project repository corresponding to the technical test for the fullstack
 ## Ejecuta el servidor de desarrollo de la API FastAPI
     uvicorn main:app --reload
 
+## Ejecuta la api por defecto en el puero 8080
+    uvicorn main:app --host 0.0.0.0 --port 8080 --reload
+
 ## Desactiva en el entorno virtual de python
     deactivate
 
 ## Genera el archivo requirements.txt automáticamente
     pip freeze > requirements.txt
 
-# API Version 0.0.1
+# API Version 1.0.2
 
 # Keys Commits
 

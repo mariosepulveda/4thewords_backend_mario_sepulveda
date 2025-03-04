@@ -3,9 +3,12 @@ from datetime import datetime
 from typing import Optional
 
 class LeyendaBase(BaseModel):
-    titulo: str
+    nombre: str
     descripcion: str
-    origen: str
+    categoria: str
+    provincia: str
+    canton: str
+    distrito: str
     imagen_url: Optional[str] = None
 
 class LeyendaCreate(LeyendaBase):
