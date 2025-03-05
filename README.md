@@ -32,7 +32,8 @@ Backend project repository corresponding to the technical test for the fullstack
 * NF: new Feature
 * CF: configuration file
 * NC: new configuration
-* UV: update version                
+* UV: update version
+* AR: Add resources                
 
 
 
