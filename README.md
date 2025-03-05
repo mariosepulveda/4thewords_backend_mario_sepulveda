@@ -25,7 +25,7 @@ Backend project repository corresponding to the technical test for the fullstack
 ## Genera el archivo requirements.txt automáticamente
     pip freeze > requirements.txt
 
-# API Version 1.0.2
+# API Version 1.1.3
 
 # Keys Commits
 
