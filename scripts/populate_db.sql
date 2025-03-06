@@ -1,5 +1,10 @@
+-- Crear la Base de datos
+create database 4thewords_prueba_mario_sepulveda;
+
+
+
 -- Crear la tabla si no existe
-CREATE TABLE IF NOT EXISTS leyendas (
+CREATE TABLE IF NOT EXISTS 4thewords_prueba_mario_sepulveda.leyendas (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(255) NOT NULL,
     descripcion TEXT NOT NULL,
@@ -15,7 +20,7 @@ CREATE TABLE IF NOT EXISTS leyendas (
 
 
 -- Insertar datos iniciales
-INSERT INTO leyendas (nombre, descripcion, provincia, canton, distrito, imagen_url, categoria,fecha_creacion) VALUES
+INSERT INTO 4thewords_prueba_mario_sepulveda.leyendas (nombre, descripcion, provincia, canton, distrito, imagen_url, categoria,fecha_creacion) VALUES
 ('La Llorona', 'Leyenda de una mujer que llora por sus hijos cerca de los ríos.', 'San José', 'San José', 'Carmen', 'uploads/img6.jpeg', 'Mitos urbanos','2024-03-01 00:00:00'),
 ('El Cadejos', 'Perro negro espectral que protege a los borrachos o castiga a los malvados.', 'Alajuela', 'Alajuela', 'San José', 'uploads/img13.jpeg', 'Criaturas mágicas','2025-03-01 00:00:00'),
 ('La Segua', 'Mujer hermosa que se transforma en un espectro para castigar a los hombres infieles.', 'Cartago', 'Cartago', 'Oriental', 'uploads/img10.png', 'Fantasmas','2024-03-02 00:00:00'),
