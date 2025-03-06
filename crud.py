@@ -18,7 +18,7 @@ def create_leyenda(db: Session, leyenda: LeyendaCreate):
 def update_leyenda(db: Session, leyenda_id: int, leyenda: LeyendaUpdate):
     db_leyenda = db.query(Leyenda).filter(Leyenda.id == leyenda_id).first()
     if db_leyenda:
-        for key, value in leyenda.dict().items():
+        for key, value in leyenda.items():
             setattr(db_leyenda, key, value)
         db.commit()
         db.refresh(db_leyenda)
