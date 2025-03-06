@@ -10,6 +10,16 @@ Backend project repository corresponding to the technical test for the fullstack
     venv\Scripts\activate           (powershell windows)
     source venv/Scripts/activate    (linux/macOS)
 
+## Conecting to DB
+### you must create a file .env in your project root and complete the values with your own values
+~~~
+DB_USER=your_db_user
+DB_PASSWORD=your_password
+DB_HOST=localhost
+DB_PORT=3306
+DB_NAME=the_name_of_db
+~~~
+
 ## Install dependencies into virtual env
     pip install fastapi uvicorn sqlmodel mysql-connector-python python-multipart
 
@@ -26,6 +36,7 @@ Backend project repository corresponding to the technical test for the fullstack
     pip freeze > requirements.txt
 
 # API Version 1.2.5
+
 
 # Keys Commits
 
