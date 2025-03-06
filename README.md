@@ -21,10 +21,7 @@ DB_NAME=the_name_of_db
 ~~~
 
 ## Install dependencies into virtual env
-    pip install fastapi uvicorn sqlmodel mysql-connector-python python-multipart
-
-## Execute the development server for API wiht FastAPI
-    uvicorn main:app --reload
+    pip install -r requirements.txt
 
 ## Ejecuta la api por defecto en el puero execute API on port 8080
     uvicorn main:app --host 0.0.0.0 --port 8080 --reload
