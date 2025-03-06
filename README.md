@@ -3,29 +3,29 @@ Backend project repository corresponding to the technical test for the fullstack
 
 # Commands to execute the development server (Backend)
 
-## Crear entorno virtual en python
+## Create virtual env in python
     python -m venv venv
 
-## Ejecuta el entorno virtual de python 
+## Execute the virtual env of python 
     venv\Scripts\activate           (powershell windows)
     source venv/Scripts/activate    (linux/macOS)
 
-## Instalar dependencias dentro del entorno virtual
+## Install dependencies into virtual env
     pip install fastapi uvicorn sqlmodel mysql-connector-python python-multipart
 
-## Ejecuta el servidor de desarrollo de la API FastAPI
+## Execute the development server for API wiht FastAPI
     uvicorn main:app --reload
 
-## Ejecuta la api por defecto en el puero 8080
+## Ejecuta la api por defecto en el puero execute API on port 8080
     uvicorn main:app --host 0.0.0.0 --port 8080 --reload
 
-## Desactiva en el entorno virtual de python
+## disable virtual env
     deactivate
 
-## Genera el archivo requirements.txt automáticamente
+## Generates the requirements.txt file automatically
     pip freeze > requirements.txt
 
-# API Version 1.1.3
+# API Version 1.2.5
 
 # Keys Commits
 
@@ -33,7 +33,8 @@ Backend project repository corresponding to the technical test for the fullstack
 * CF: configuration file
 * NC: new configuration
 * UV: update version
-* AR: Add resources                
+* AR: add resources
+* BF: bug fixed                
 
 
 
